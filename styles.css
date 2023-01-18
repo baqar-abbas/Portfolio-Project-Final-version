@@ -9,6 +9,10 @@ body {
   width: 375px;  /* For Mobile Resolution of 375 Pixels */
   background-color: #f1f1f1;
 }
+.imageone {
+  width: 20px;
+  height: 18px;
+}
 
 nav ul {
   list-style-type: none;
@@ -59,9 +63,20 @@ nav li a img {
   height: auto;
   background-color: white;
 }
-
-section .icons {
+.iconlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+  .iconlist li {
+    display: inline-block;
+    float: left;
+    padding: 0 5px;
+  }
+.icons {
   margin-right: 10px;
+  width: 17.99px;
+  height: 20px;
 }
 
 .textdiv h1 {
@@ -109,7 +124,14 @@ section .icons {
   line-height: 24px;
   color: #344563;
 }
-
+.textdiv .pcol, .pcol {
+  color: #7F8CFF;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
 .abouth {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -141,6 +163,14 @@ section .icons {
   display: inline-block;
   padding: 18px;
 }
+.abouts:hover {
+  background: #6070ff;
+  color: #fff;
+}
+.abouts:active {
+  background: #2230d2;
+  color: #fff;
+}
 
 .container {
   display: flex;
@@ -152,8 +182,6 @@ section .icons {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-
-  /* height: 600px; */
   background-color: white;
 }
 
@@ -247,8 +275,6 @@ section .icons {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-
-  /* height: 600px; */
   background-color: white;
 }
 
@@ -310,10 +336,6 @@ section .icons {
   color: #253858;
 }
 
-.abouts:hover {
-  text-decoration: underline;
-}
-
 .dot {
   width: 9px;
   height: 9px;
@@ -328,4 +350,12 @@ section .icons {
   float: right;
   color: grey;
   font-size: 28px;
+}
+.projects {
+  width: 295px;
+  height: 220px;
+}
+.imageabout {
+  width: 50px;
+  height: 50px;
 }
