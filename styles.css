@@ -384,3 +384,76 @@ nav li a img {
   width: 50px;
   height: 50px;
 }
+
+.contact {
+  background-image: url('contactshapes.png'), url('contactbg.png');
+  background-position: 153px 18px, 0 0;
+  background-repeat: no-repeat;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 779px;
+}
+
+.text-div {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.text-div h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.text-div p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.design {
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 327px;
+  height: 170px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.submit {
+  margin: 0;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: 1px solid #396df2;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 12px;
+}
+
+.submit:hover {
+  background: #2230d2;
+  color: #fff;
+}
