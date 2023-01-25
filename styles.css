@@ -386,7 +386,7 @@ nav li a img {
 }
 
 .contact {
-  background-image: url('contactshapes.png'), url('contact.png');
+  background-image: url('contactshapes.png'), url('contactbg.png');
   background-position: 153px 18px, 0 0;
   background-repeat: no-repeat;
   padding: 40px;
