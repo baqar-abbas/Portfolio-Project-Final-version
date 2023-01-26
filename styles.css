@@ -122,6 +122,31 @@ nav li a img {
   .imgdivdesktop {
     flex: 50%;
     max-width: 45%;
+  }
+  .container2 {
+    display: none !important;
+  }
+  .containerdesktop2 {
+    display: flex !important;
+    flex-direction: row;
+  }
+  .multidesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+  .imgdivdesktop2 {
+    flex: 50%;
+    max-width: 40%;
+  }
+  .mproject {
+    width: 500px;
+    height: 320px;
+    margin-left: 100px;
+    
+  }
+  .tproject {
+    width: 500px;
+    height: 320px;
     margin-bottom: 20px;
   }
 }
@@ -295,7 +320,7 @@ nav li a img {
   display: none;
   border: 1px solid gray;
   border-radius: 8px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   width: 85%;
@@ -407,7 +432,27 @@ nav li a img {
   line-height: 16px;
   color: #6070ff;
 }
+.containerdesktop2 {
+  display: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+.multidesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 
+.imgdivdesktop2 {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
 .container5 {
   display: grid;
   grid-template-columns: auto;
