@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  /*width: 375px;*/  /* For Mobile Resolution of 375 Pixels */
   background-color: #f1f1f1;
 }
 
@@ -69,7 +68,7 @@ nav li a img {
   font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
 }
 .headline {
@@ -137,6 +136,42 @@ nav li a img {
   .imgdivdesktop2 {
     flex: 50%;
     max-width: 40%;
+  }
+  .containerdesktop3 {
+    display: flex !important;
+    flex-direction: row;
+  }
+  .imgdivdesktop3 {
+    flex: 50%;
+    max-width: 45%;
+  }
+  .facedesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+  .containerdesktop4 {
+    display: flex !important;
+    flex-direction: row;
+  }
+  .imgdivdesktop4 {
+    flex: 50%;
+    max-width: 45%;
+  }
+  .uberdesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+  .uproject {
+    width: 500px;
+    height: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .fproject {
+    width: 500px;
+    height: 320px;
+    margin-bottom: 20px;
   }
   .mproject {
     width: 500px;
@@ -449,6 +484,48 @@ nav li a img {
 }
 
 .imgdivdesktop2 {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.containerdesktop3 {
+  display: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+.facedesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.imgdivdesktop3 {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.containerdesktop4 {
+  display: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+.uberdesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.imgdivdesktop4 {
   flex: 40%;
   margin-left: 40px;
   margin-top: 20px;
