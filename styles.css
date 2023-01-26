@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  width: 375px;  /* For Mobile Resolution of 375 Pixels */
+  /*width: 375px;*/  /* For Mobile Resolution of 375 Pixels */
   background-color: #f1f1f1;
 }
 
@@ -29,6 +29,7 @@ nav li {
 
 .leftli {
   float: right;
+  margin-left: 40px;
 }
 
 nav li a {
@@ -41,7 +42,7 @@ nav li a {
 nav li a.logolink {
   position: relative;
   top: 4px;
-  left: 20px;
+  left: 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -55,7 +56,28 @@ nav li a img {
   top: 4px;
   right: 20px;
 }
-
+.link-desktop {
+  float: right;
+  padding: 0 10px;
+  display: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  position: relative;
+  top: 4px;
+  right: 120px;
+}
+.link-desktop a {
+  color: #344563;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
 .headline {
   background-image: url('image.png');
   border-bottom-left-radius: 50px;
@@ -64,7 +86,35 @@ nav li a img {
   height: auto;
   background-color: white;
 }
-
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+  .headline {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('desktopbackground1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    padding: 30px;
+    width: 100%;
+    height: 779px;
+  }
+  .textdiv {
+    position: relative;
+    left: 140px;
+    top: 180px;;
+    width: 720px;
+    height: 98px;
+  }
+  .leftli {
+    display: none;
+  }
+  .link-desktop {
+    display: inline-block;
+  }
+}
 .iconlist {
   list-style-type: none;
   padding: 0;
