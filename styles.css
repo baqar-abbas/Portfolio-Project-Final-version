@@ -184,6 +184,84 @@ nav li a img {
     height: 320px;
     margin-bottom: 20px;
   }
+  .container5 {
+    display: grid;
+    background-image: url('aboutmyself.png') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    grid-template-columns: 50% 50% !important;
+    border-top-right-radius: 50px !important;
+    height: 469px;
+  }
+  .about {
+    margin-right: 0;
+    width: 500px;
+    position: relative;
+    left: 60px;
+  }
+  .lastsection {
+    margin-left: 0;
+    width: 600px;
+  }
+  .lastsection .javascript1 {
+    float: left;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 25px !important;
+  }
+  
+  .lastsection .lidesktop {
+    clear: left;
+    margin-top: 30px;
+  }
+  .aboutp {
+    color: #344563 !important;
+  }
+  .contact {
+    background-image: url('contactshapes2.png'), url('contactbg2.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-div {
+    align-self: center;
+    width: 480px;
+  }
+  .text-div h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+     
+  }
+  .text-div p {
+   position: relative;
+   right: 55px;
+  }
+  
+  .design {
+    border-radius: 8px;
+    width: 447px !important;
+    height: 48px;
+    margin-bottom: 20px;
+  }
+  textarea {
+    border-radius: 8px;
+    width: 447px !important;
+    height: 170px;
+    margin-bottom: 20px;
+  }
+  
+  .submit {
+    position: relative;
+    top: 35px;
+    right: 285px;
+  }
 }
 .iconlist {
   list-style-type: none;
