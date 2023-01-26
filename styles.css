@@ -60,19 +60,13 @@ nav li a img {
   float: right;
   padding: 0 10px;
   display: none;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
   position: relative;
   top: 4px;
   right: 120px;
 }
 .link-desktop a {
   color: #344563;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -113,6 +107,22 @@ nav li a img {
   }
   .link-desktop {
     display: inline-block;
+  }
+  .container {
+    display: none !important;
+  }
+  .containerdesktop {
+    display: flex !important;
+    flex-direction: row;
+  }
+  .tonicdesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+  .imgdivdesktop {
+    flex: 50%;
+    max-width: 45%;
+    margin-bottom: 20px;
   }
 }
 .iconlist {
@@ -281,6 +291,28 @@ nav li a img {
   line-height: 16px;
   color: #6070ff;
 }
+.containerdesktop {
+  display: none;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+.tonicdesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.imgdivdesktop {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
+} 
+
 
 .btn,
 .btn3,
