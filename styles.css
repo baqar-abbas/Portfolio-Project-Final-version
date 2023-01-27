@@ -55,6 +55,7 @@ nav li a img {
   top: 4px;
   right: 20px;
 }
+
 .link-desktop {
   float: right;
   padding: 0 10px;
@@ -63,14 +64,16 @@ nav li a img {
   top: 4px;
   right: 120px;
 }
+
 .link-desktop a {
   color: #344563;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
+
 .headline {
   background-image: url('image.png');
   border-bottom-left-radius: 50px;
@@ -79,10 +82,12 @@ nav li a img {
   height: auto;
   background-color: white;
 }
+
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
   }
+
   .headline {
     display: flex;
     flex-wrap: wrap;
@@ -94,95 +99,118 @@ nav li a img {
     width: 100%;
     height: 779px;
   }
+
   .textdiv {
     position: relative;
     left: 140px;
-    top: 180px;;
+    top: 180px;
     width: 720px;
     height: 98px;
   }
+
   .leftli {
     display: none;
   }
+
   .link-desktop {
     display: inline-block;
   }
+
   .textdiv h1 {
     font-size: 48px !important;
     line-height: 60px;
   }
+
   .textdiv p {
     font-size: 20px !important;
     line-height: 28px;
   }
+
   .container {
     display: none !important;
   }
+
   .containerdesktop {
     display: flex !important;
     flex-direction: row;
   }
+
   .tonicdesktop {
     flex: 50%;
     max-width: 45%;
   }
+
   .imgdivdesktop {
     flex: 50%;
     max-width: 45%;
   }
+
   .popheaddesktop {
     font-weight: 700;
     font-size: 40px !important;
     line-height: 52px;
-    color: #091E42 !important;
+    color: #091e42 !important;
   }
+
   .pop13desktop {
     font-weight: 500 !important;
     font-size: 18px !important;
     line-height: 24px;
   }
+
   .pop15desktop {
     font-size: 16px !important;
   }
+
   .container2 {
     display: none !important;
   }
+
   .containerdesktop2 {
     display: flex !important;
     flex-direction: row;
   }
+
   .multidesktop {
     flex: 50%;
     max-width: 45%;
   }
+
   .imgdivdesktop2 {
     flex: 50%;
     max-width: 40%;
   }
+
   .containerdesktop3 {
     display: flex !important;
     flex-direction: row;
   }
+
   .imgdivdesktop3 {
     flex: 50%;
     max-width: 45%;
   }
+
   .facedesktop {
     flex: 50%;
     max-width: 45%;
   }
+
   .containerdesktop4 {
     display: flex !important;
     flex-direction: row;
   }
+
   .imgdivdesktop4 {
     flex: 50%;
     max-width: 45%;
   }
+
   .uberdesktop {
     flex: 50%;
     max-width: 45%;
   }
+
   .uproject {
     width: 500px;
     height: 320px;
@@ -190,22 +218,25 @@ nav li a img {
     margin-bottom: 20px;
     margin-left: 100px;
   }
+
   .fproject {
     width: 500px;
     height: 320px;
     margin-bottom: 20px;
   }
+
   .mproject {
     width: 500px;
     height: 320px;
     margin-left: 100px;
-    
   }
+
   .tproject {
     width: 500px;
     height: 320px;
     margin-bottom: 20px;
   }
+
   .container5 {
     display: grid;
     background-image: url('aboutmyself.png') !important;
@@ -215,30 +246,35 @@ nav li a img {
     border-top-right-radius: 50px !important;
     height: 469px;
   }
+
   .about {
     margin-right: 0;
     width: 500px;
     position: relative;
     left: 60px;
   }
+
   .lastsection {
     margin-left: 0;
     width: 600px;
   }
+
   .lastsection .javascript1 {
     float: left;
     padding: 20px;
     margin-right: 10px;
     margin-bottom: 25px !important;
   }
-  
+
   .lastsection .lidesktop {
     clear: left;
     margin-top: 30px;
   }
+
   .aboutp {
     color: #344563 !important;
   }
+
   .contact {
     background-image: url('contactshapes2.png'), url('contactbg2.png') !important;
     background-size: cover;
@@ -249,42 +285,46 @@ nav li a img {
     justify-content: center;
     align-items: center;
   }
+
   .text-div {
     align-self: center;
     width: 480px;
   }
+
   .text-div h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-     
   }
+
   .text-div p {
-   position: relative;
-   right: 55px;
+    position: relative;
+    right: 55px;
   }
-  
+
   .design {
     border-radius: 8px;
     width: 447px !important;
     height: 48px;
     margin-bottom: 20px;
   }
+
   textarea {
     border-radius: 8px;
     width: 447px !important;
     height: 170px;
     margin-bottom: 20px;
   }
-  
+
   .submit {
     position: relative;
     top: 35px;
     right: 285px;
   }
 }
+
 .iconlist {
   list-style-type: none;
   padding: 0;
@@ -451,6 +491,7 @@ nav li a img {
   line-height: 16px;
   color: #6070ff;
 }
+
 .containerdesktop {
   display: none;
   border: 1px solid gray;
@@ -461,6 +502,7 @@ nav li a img {
   width: 85%;
   background-color: white;
 }
+
 .tonicdesktop {
   flex: 40%;
   margin-left: 20px;
@@ -471,8 +513,7 @@ nav li a img {
   flex: 40%;
   margin-left: 40px;
   margin-top: 20px;
-} 
-
+}
 
 .btn,
 .btn3,
@@ -567,6 +608,7 @@ nav li a img {
   line-height: 16px;
   color: #6070ff;
 }
+
 .containerdesktop2 {
   display: none;
   border: 1px solid gray;
@@ -577,6 +619,7 @@ nav li a img {
   width: 85%;
   background-color: white;
 }
+
 .multidesktop {
   flex: 40%;
   margin-left: 20px;
@@ -588,6 +631,7 @@ nav li a img {
   margin-left: 40px;
   margin-top: 20px;
 }
+
 .containerdesktop3 {
   display: none;
   border: 1px solid gray;
@@ -598,6 +642,7 @@ nav li a img {
   width: 85%;
   background-color: white;
 }
+
 .facedesktop {
   flex: 40%;
   margin-left: 20px;
@@ -609,6 +654,7 @@ nav li a img {
   margin-left: 40px;
   margin-top: 20px;
 }
+
 .containerdesktop4 {
   display: none;
   border: 1px solid gray;
@@ -619,6 +665,7 @@ nav li a img {
   width: 85%;
   background-color: white;
 }
+
 .uberdesktop {
   flex: 40%;
   margin-left: 20px;
@@ -630,6 +677,7 @@ nav li a img {
   margin-left: 40px;
   margin-top: 20px;
 }
+
 .container5 {
   display: grid;
   grid-template-columns: auto;
