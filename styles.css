@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  width: 375px;  /* For Mobile Resolution of 375 Pixels */
   background-color: #f1f1f1;
 }
 
@@ -29,6 +28,7 @@ nav li {
 
 .leftli {
   float: right;
+  margin-left: 40px;
 }
 
 nav li a {
@@ -41,7 +41,7 @@ nav li a {
 nav li a.logolink {
   position: relative;
   top: 4px;
-  left: 20px;
+  left: 70px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -56,6 +56,24 @@ nav li a img {
   right: 20px;
 }
 
+.link-desktop {
+  float: right;
+  padding: 0 10px;
+  display: none;
+  position: relative;
+  top: 4px;
+  right: 100px;
+}
+
+.link-desktop a {
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .headline {
   background-image: url('image.png');
   border-bottom-left-radius: 50px;
@@ -63,6 +81,260 @@ nav li a img {
   width: 100%;
   height: auto;
   background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .headline {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('desktopbackground1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+    border-bottom-left-radius: 50px;
+    padding: 30px;
+    width: 100%;
+    height: 779px;
+  }
+
+  .textdiv {
+    position: relative;
+    left: 170px;
+    top: 180px;
+    width: 70%;
+    height: 128px;
+  }
+
+  .leftli {
+    display: none;
+  }
+
+  .link-desktop {
+    display: inline-block;
+  }
+
+  .textdiv h1 {
+    font-size: 48px !important;
+    line-height: 60px;
+  }
+
+  .textdiv p {
+    font-size: 20px !important;
+    line-height: 28px;
+  }
+
+  .container {
+    display: none !important;
+  }
+
+  .containerdesktop {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .tonicdesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+
+  .imgdivdesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+
+  .popheaddesktop {
+    font-weight: 700;
+    font-size: 40px !important;
+    line-height: 52px;
+    color: #091e42 !important;
+  }
+
+  .pop13desktop {
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 24px;
+  }
+
+  .pop15desktop {
+    font-size: 16px !important;
+  }
+
+  .container2 {
+    display: none !important;
+  }
+
+  .containerdesktop2 {
+    display: flex !important;
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  .multidesktop {
+    flex: 50% !important;
+    max-width: 45% !important;
+  }
+
+  .imgdivdesktop2 {
+    flex: 50% !important;
+    max-width: 40% !important;
+  }
+
+  .containerdesktop3 {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .imgdivdesktop3 {
+    flex: 50%;
+    max-width: 45%;
+  }
+
+  .facedesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+
+  .containerdesktop4 {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .imgdivdesktop4 {
+    flex: 50%;
+    max-width: 45%;
+  }
+
+  .uberdesktop {
+    flex: 50%;
+    max-width: 45%;
+  }
+
+  .uproject {
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .fproject {
+    width: 95%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .mproject {
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .tproject {
+    width: 95%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .container5 {
+    display: grid;
+    background-image: url('aboutmyself.png') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    grid-template-columns: 50% 50% !important;
+    border-top-right-radius: 50px !important;
+    height: 569px;
+  }
+
+  .about {
+    margin-right: 0;
+    margin-top: 20px;
+    width: 75%;
+    height: auto;
+    position: relative;
+    left: 20px;
+  }
+
+  .lastsection {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+  }
+
+  .lastsection .javascript1 {
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 25px !important;
+  }
+
+  .lastsection .lidesktop {
+    clear: left;
+    margin-top: 30px;
+  }
+
+  .aboutp {
+    color: #344563 !important;
+  }
+
+  .contact {
+    background-image: url('contactshapes2.png'), url('contactbg2.png') !important;
+    background-size: cover;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: auto;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-div {
+    align-self: center;
+    width: 480px;
+  }
+
+  .text-div h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+  }
+
+  .text-div p {
+    position: relative;
+    right: 55px;
+  }
+
+  .design {
+    border-radius: 8px;
+    width: 447px !important;
+    height: 48px;
+    margin-bottom: 20px;
+  }
+
+  textarea {
+    border-radius: 8px;
+    width: 447px !important;
+    height: 170px;
+    margin-bottom: 20px;
+  }
+
+  .submit {
+    position: relative;
+    top: 35px;
+    right: 285px;
+  }
 }
 
 .iconlist {
@@ -185,7 +457,7 @@ nav li a img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid gray;
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
   margin-top: 40px;
   margin-left: auto;
@@ -230,6 +502,29 @@ nav li a img {
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
+}
+
+.containerdesktop {
+  display: none;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+
+.tonicdesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.imgdivdesktop {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .btn,
@@ -292,7 +587,7 @@ nav li a img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid gray;
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
   margin-top: 30px;
   margin-left: auto;
@@ -326,13 +621,82 @@ nav li a img {
   color: #6070ff;
 }
 
+.containerdesktop2 {
+  display: none;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+
+.multidesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.imgdivdesktop2 {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.containerdesktop3 {
+  display: none;
+  border: 2px solid #a7aeff;
+  border-radius: 24px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+
+.facedesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.imgdivdesktop3 {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.containerdesktop4 {
+  display: none;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: white;
+}
+
+.uberdesktop {
+  flex: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.imgdivdesktop4 {
+  flex: 40%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
 .container5 {
   display: grid;
   grid-template-columns: auto;
   background-image: url('baseabout.png');
   border-top-right-radius: 50px;
   padding: 40px;
-  margin-top: 25px;
+  margin-top: 100px;
 }
 
 .lastsection ul {
