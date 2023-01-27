@@ -228,7 +228,6 @@ nav li a img {
   .mproject {
     width: 95%;
     height: auto;
-    
   }
 
   .tproject {
@@ -445,7 +444,7 @@ nav li a img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
   margin-top: 40px;
   margin-left: auto;
@@ -494,7 +493,7 @@ nav li a img {
 
 .containerdesktop {
   display: none;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 24px;
   margin-top: 40px;
   margin-left: auto;
@@ -575,7 +574,7 @@ nav li a img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 8px;
   margin-top: 30px;
   margin-left: auto;
@@ -611,7 +610,7 @@ nav li a img {
 
 .containerdesktop2 {
   display: none;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 24px;
   margin-top: 40px;
   margin-left: auto;
@@ -634,7 +633,7 @@ nav li a img {
 
 .containerdesktop3 {
   display: none;
-  border: 2px solid #A7AEFF;
+  border: 2px solid #a7aeff;
   border-radius: 24px;
   margin-top: 30px;
   margin-left: auto;
@@ -657,7 +656,7 @@ nav li a img {
 
 .containerdesktop4 {
   display: none;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 24px;
   margin-top: 30px;
   margin-left: auto;
