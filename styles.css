@@ -107,6 +107,14 @@ nav li a img {
   .link-desktop {
     display: inline-block;
   }
+  .textdiv h1 {
+    font-size: 48px !important;
+    line-height: 60px;
+  }
+  .textdiv p {
+    font-size: 20px !important;
+    line-height: 28px;
+  }
   .container {
     display: none !important;
   }
@@ -121,6 +129,20 @@ nav li a img {
   .imgdivdesktop {
     flex: 50%;
     max-width: 45%;
+  }
+  .popheaddesktop {
+    font-weight: 700;
+    font-size: 40px !important;
+    line-height: 52px;
+    color: #091E42 !important;
+  }
+  .pop13desktop {
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 24px;
+  }
+  .pop15desktop {
+    font-size: 16px !important;
   }
   .container2 {
     display: none !important;
