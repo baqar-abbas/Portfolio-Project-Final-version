@@ -40,7 +40,7 @@ nav li a {
 
 nav li a.logolink {
   position: relative;
-  top: 4px;
+  top: 0;
   left: 70px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -48,8 +48,17 @@ nav li a.logolink {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  padding: 20px 0;
+  animation-name: logo;
+  animation-duration: 4s;
 }
-
+@keyframes logo {
+  0%   {transform: rotate(0deg);}
+  20%  {transform: rotate(90deg);}
+  40%  {transform: rotate(180deg);}
+  60%  {transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}
 nav li a img {
   position: relative;
   top: 4px;
@@ -61,13 +70,14 @@ nav li a img {
   padding: 0 10px;
   display: none;
   position: relative;
-  top: 4px;
+  top: 0;
   right: 100px;
 }
 
 .link-desktop a {
   color: #344563;
   font-family: 'Poppins', sans-serif;
+  padding: 25px 0;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -219,6 +229,7 @@ nav li a img {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+    transition: transform 4s;
   }
 
   .fproject {
@@ -226,6 +237,7 @@ nav li a img {
     height: auto;
     margin-bottom: 20px;
     margin-right: 20px;
+    transition: transform 4s;
   }
 
   .mproject {
@@ -234,6 +246,7 @@ nav li a img {
     margin-left: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+    transition: transform 4s;
   }
 
   .tproject {
@@ -241,6 +254,10 @@ nav li a img {
     height: auto;
     margin-bottom: 20px;
     margin-right: 20px;
+    transition: transform 4s;
+  }
+.tproject:hover, .mproject:hover, .fproject:hover, .uproject:hover {
+    transform: scale(1.1,1.1);
   }
 
   .container5 {
@@ -742,8 +759,11 @@ nav li a img {
 .projects {
   width: 295px;
   height: 220px;
+  transition: transform 4s;
 }
-
+.projects:hover {
+  transform: scale(1.1,1.1);
+}
 .imageabout {
   width: 50px;
   height: 50px;
