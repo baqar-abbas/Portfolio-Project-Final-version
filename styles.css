@@ -52,13 +52,15 @@ nav li a.logolink {
   animation-name: logo;
   animation-duration: 4s;
 }
+
 @keyframes logo {
-  0%   {transform: rotate(0deg);}
-  20%  {transform: rotate(90deg);}
-  40%  {transform: rotate(180deg);}
-  60%  {transform: rotate(270deg);}
-  100% {transform: rotate(360deg);}
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(90deg); }
+  40% { transform: rotate(180deg); }
+  60% { transform: rotate(270deg); }
+  100% { transform: rotate(360deg); }
 }
+
 nav li a img {
   position: relative;
   top: 4px;
@@ -256,8 +258,12 @@ nav li a img {
     margin-right: 20px;
     transition: transform 4s;
   }
-.tproject:hover, .mproject:hover, .fproject:hover, .uproject:hover {
-    transform: scale(1.1,1.1);
+
+  .tproject:hover,
+  .mproject:hover,
+  .fproject:hover,
+  .uproject:hover {
+    transform: scale(1.1, 1.1);
   }
 
   .container5 {
@@ -761,9 +767,11 @@ nav li a img {
   height: 220px;
   transition: transform 4s;
 }
+
 .projects:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
+
 .imageabout {
   width: 50px;
   height: 50px;
