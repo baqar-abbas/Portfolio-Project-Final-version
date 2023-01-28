@@ -28,7 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+ <!--> <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -50,7 +50,7 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage Portfolio Page for Work Demostration](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment on Git Hub](#triangular_flag_on_post-deployment)
 - [👥 Author: Baqar Abbas](#authors)
 - [🔭 Future Features will be updated and enhanced](#future-features)
 - [🤝 Contributing](#contributing)
@@ -109,11 +109,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo available on Git HUB <a name="live-demo"></a>
+## 🚀 Live Demo available on Git HUB <a name="live-demo">https://baqar-abbas.github.io/Portfolio-Project-Final-version/</a>
 
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://baqar-abbas.github.io/Portfolio-Project-Final-version/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +183,7 @@ Solo Project - Baqar Abbas - Portfolio Page
 
 ## 🔭 Future Features will be added and enhancements will be updated<a name="future-features"></a>
 
-> New features will be added to the project in Future.
+> Desktop and Mobile responsive Design of Portfolio project..
 Portfolio project will be updated to handle responsiveness so that it will look good on all major breakpoints
 of resolution for handling Desktop, Tablets and mobile resolution. It will be handled using media queries.
 

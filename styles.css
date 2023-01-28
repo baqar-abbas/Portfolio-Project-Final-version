@@ -29,6 +29,8 @@ nav li {
 .leftli {
   float: right;
   margin-left: 40px;
+  position: relative;
+  top: 4px;
 }
 
 nav li a {
