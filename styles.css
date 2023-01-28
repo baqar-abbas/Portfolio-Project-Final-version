@@ -30,7 +30,7 @@ nav li {
   float: right;
   margin-left: 40px;
   position: relative;
-  top: 4px;
+  top: 12px;
 }
 
 nav li a {
@@ -42,7 +42,7 @@ nav li a {
 
 nav li a.logolink {
   position: relative;
-  top: -4px;
+  top: 0;
   left: 70px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
