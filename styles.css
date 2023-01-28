@@ -40,7 +40,7 @@ nav li a {
 
 nav li a.logolink {
   position: relative;
-  top: 0;
+  top: -4px;
   left: 70px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
