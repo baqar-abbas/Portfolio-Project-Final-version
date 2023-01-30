@@ -209,7 +209,9 @@ Feel free to check the [issues page](../../issues/).
 > Write a message to encourage readers to support your project
  This is a Portfolio Project following the Git Flow Processes.
 If you like this project give it a Thumbs up ...
-
+This Project shows portfolio demonstrations of work and build on a responsive design.
+using mobile first approach _ with responsive desgins for small and large screens resolutions.
+Live Demo available on GitHub.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
