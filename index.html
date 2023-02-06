@@ -9,7 +9,7 @@
 </head>
     <body>
         <header>
-            <nav>
+            <nav class="nav-menu">
                 <ul>
               <li><a class="logolink" href="">My Logo</a></li>
               <li class="leftli"><a href=""><img class="imageone" src="hammenu.png" alt="ham"></a></li>
@@ -18,6 +18,14 @@
               <li class="link-desktop"><a href=""> Contact</a></li>
                 </ul>
             </nav>
+            <div class="mobile-menu">
+                <img id="cross" src="cross.png" alt="ham" height="40px" width="45px">
+                <ul>
+                    <li><a href="#portfolio1">Portfolio</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                </ul>
+            </div>
         </header>
         <div class="headline">
             <div class="textdiv"><h1>I’m Alexandra <br>
@@ -36,7 +44,7 @@
                     </ul>
                 </div>
             </div>
-        <div class="container">
+        <div id="portfolio1" class="container">
             <div class="imgdiv">
                 <img class="projects" src="image1.png" alt="Nature">
             </div>
@@ -58,7 +66,7 @@
                       </div>
             </div>    
            </div>
-           <div class="containerdesktop">
+           <div id="portfolio" class="containerdesktop">
             <div class="imgdivdesktop">
                 <img class="tproject" class="projects" src="image1desktop.png" alt="Nature">
             </div>
@@ -227,7 +235,7 @@
                     
             </div>    
            </div>
-           <div class="container5">
+           <div id="about" class="container5">
             <div class="about">
                 <h1 class="abouth">About Myself</h1>
                 <p class="popp15 pop15desktop">Hello I’m a software developer! I can help you build a product , feature or 
@@ -264,7 +272,7 @@
             </div>
            </div>
            <!--Contact Form Section-->
-           <section class="contact">
+           <section id="contact" class="contact">
             <div class="text-div">
                 <h2>Contact me</h2>
                 <p>If you have an application you are interested in developing,
@@ -280,5 +288,6 @@
 </form>
             </div>
            </section>
+           <script src="app.js"></script>
     </body>
 </html>
