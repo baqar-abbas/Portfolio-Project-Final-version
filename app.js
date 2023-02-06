@@ -7,7 +7,6 @@ const hamImage = document.querySelector('.imageone');
 const menuOpen = (event) => {
   navMenu.style.display = 'none';
   mobileMenu.style.display = 'flex';
-  mobileMenu.style.width = '375px';
   event.preventDefault();
 };
 const menuClose = () => {
