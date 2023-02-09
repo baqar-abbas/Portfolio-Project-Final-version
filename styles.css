@@ -107,6 +107,146 @@ nav li a img {
     width: 100%;
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
+  .popupbackground {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    background-color: #396df277;
+    backdrop-filter: blur(5px);
+  }
+
+  #demo-mobile {
+    display: none !important;
+  }
+
+  #demo {
+    width: 80%;
+    height: 713px;
+    position: absolute;
+    top: 1%;
+    z-index: 20;
+    display: none;
+    padding: 15px;
+    background-color: #fff;
+    margin-left: 100px;
+    border: 1px solid #ebecf0;
+    margin-top: 30px;
+    overflow: scroll;
+    transition: width 4s;
+  }
+
+  #demo:hover {
+    width: 90%;
+  }
+
+  .paragrap {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    display: inline-block;
+    width: 75%;
+    float: left;
+  }
+
+  .modalheading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    display: inline-block;
+    float: left;
+    width: 90%;
+  }
+
+  .specificpara {
+    clear: both;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .crossmodal {
+    float: right;
+    line-height: 52px;
+    width: 40px;
+    height: 35px;
+  }
+
+  .techlistmodal {
+    list-style-type: none;
+    width: 100%;
+    margin-left: 100px;
+  }
+
+  .techlistmodal li {
+    display: block;
+    float: left;
+    padding: 10px 2px;
+    margin-right: 5px;
+  }
+
+  .htcjmodal {
+    background: #ebebff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px 14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6070ff;
+  }
+
+  .techlistmodal2 {
+    list-style-type: none;
+    margin-left: 80px;
+  }
+
+  .techlistmodal2 li {
+    display: block;
+    float: left;
+    padding: 10px 2px;
+    margin-right: 5px;
+  }
+
+  .htcjmodal2 {
+    background: #ebebff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 5px 14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6070ff;
+  }
+.seeliveicon1 {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+.gitbuttonicon1 {
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+}
   .headline {
     display: flex;
     flex-wrap: wrap;
@@ -481,6 +621,65 @@ nav li a img {
 .abouts:active {
   background: #2230d2;
   color: #fff;
+}
+
+.popupbackgroundmobile {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  background-color: #396df277;
+  backdrop-filter: blur(5px);
+}
+
+#demo-mobile {
+  width: 90%;
+  height: 580px;
+  display: none;
+  position: absolute;
+  top: 1%;
+  z-index: 20;
+  background-color: #fff;
+  overflow: scroll;
+  padding: 10px 20px;
+  margin-left: 18px;
+  margin-top: 20px;
+  transition: width 4s;
+}
+
+#demo-mobile:hover {
+  width: 92%;
+}
+
+.modalheading2 {
+  float: left;
+  position: relative;
+  top: -20px;
+}
+
+.crossmobile {
+  float: right;
+}
+
+.mobilep {
+  clear: both;
+}
+
+.paddingt {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.seeliveicon2 {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+}
+.gitbuttonicon2 {
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
 }
 
 .container {
