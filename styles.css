@@ -237,16 +237,19 @@ nav li a img {
     line-height: 16px;
     color: #6070ff;
   }
-.seeliveicon1 {
-  width: 14px;
-  height: 14px;
-  margin-left: 5px;
-}
-.gitbuttonicon1 {
-  width: 15px;
-  height: 15px;
-  margin-left: 3px;
-}
+
+  .seeliveicon1 {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+  }
+
+  .gitbuttonicon1 {
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+  }
+
   .headline {
     display: flex;
     flex-wrap: wrap;
@@ -671,11 +674,13 @@ nav li a img {
   margin-top: 10px;
   margin-right: 10px;
 }
+
 .seeliveicon2 {
   width: 14px;
   height: 14px;
   margin-left: 5px;
 }
+
 .gitbuttonicon2 {
   width: 15px;
   height: 15px;

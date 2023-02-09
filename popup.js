@@ -58,6 +58,7 @@ const pagemob = document.querySelector('#demo-mobile');
 const background = document.querySelector('.popupbackground');
 const backgroundmobile = document.querySelector('.popupbackgroundmobile');
 const closemodal = document.querySelector('.crossmodal');
+const popup = document.querySelector('.btnlink');
 
 function dynamic(n) {
   if (n === 1) {
@@ -111,6 +112,8 @@ function dynamic(n) {
   pagemob.style.display = 'block';
   backgroundmobile.style.display = 'block';
 }
+
+popup.addEventListener('click', dynamic);
 
 const popupclose = (event) => {
   page.style.display = 'none';
