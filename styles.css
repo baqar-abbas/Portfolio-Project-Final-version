@@ -127,7 +127,7 @@ nav li a img {
   }
 
   #demo {
-    width: 80%;
+    width: 79%;
     height: 713px;
     position: absolute;
     top: 1%;
@@ -138,12 +138,13 @@ nav li a img {
     margin-left: 100px;
     border: 1px solid #ebecf0;
     margin-top: 30px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     transition: width 4s;
   }
 
   #demo:hover {
-    width: 90%;
+    width: 80%;
   }
 
   .paragrap {
@@ -638,8 +639,8 @@ nav li a img {
 }
 
 #demo-mobile {
-  width: 90%;
-  height: 580px;
+  width: 93%;
+  height: 713px;
   display: none;
   position: absolute;
   top: 1%;
@@ -647,18 +648,19 @@ nav li a img {
   background-color: #fff;
   overflow: scroll;
   padding: 10px 20px;
-  margin-left: 18px;
+  margin-left: 13px;
   margin-top: 20px;
   transition: width 4s;
 }
 
 #demo-mobile:hover {
-  width: 92%;
+  width: 94%;
 }
 
 .modalheading2 {
   float: left;
   position: relative;
+  width: 80%;
   top: -20px;
 }
 
