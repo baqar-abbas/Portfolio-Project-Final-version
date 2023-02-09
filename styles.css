@@ -1101,3 +1101,19 @@ textarea {
   background: #2230d2;
   color: #fff;
 }
+
+.popuppara .test {
+  display: none;
+  font-size: 16px;
+  padding: 2px 10px;
+  width: 30vw;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  top: 30px;
+  height: 30px;
+  background-color: #253858;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
