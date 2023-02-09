@@ -192,7 +192,7 @@ function dynamic(n) {
                             <li><span class="htcj">${projectCards[0].technologies2[1]}</span></li>
                             <li><span class="htcj">${projectCards[0].technologies2[2]}</span></li>
                         </ul>
-                        <span><a class="abouts paddingt" href="{projectCards[0].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="seeliveicon.png"></a> </span> 
+                        <span><a class="abouts paddingt" href="${projectCards[0].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="seeliveicon.png"></a> </span> 
                         <span><a class="abouts paddingt" href="${projectCards[0].codeButton}" target="_blank">See Source<img class="gitbuttonicon2" src="gitbutton.png"></a> </span>`;
     pagemob.style.display = 'block';
     backgroundmobile.style.display = 'block';
