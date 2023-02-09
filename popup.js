@@ -112,10 +112,6 @@ function dynamic(n) {
   backgroundmobile.style.display = 'block';
 }
 
-const popup = document.querySelector('.btn-popup');
-
-popup.addEventListener('click', dynamic);
-
 const popupclose = (event) => {
   page.style.display = 'none';
   pagemob.style.display = 'none';
