@@ -178,7 +178,6 @@ function dynamic(n) {
    <span><a class="abouts" href="${projectCards[0].liveButton}" target="_blank">See Live<img class="seeliveicon1" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
    <span><a class="abouts" href="${projectCards[0].codeButton}" target="_blank">See Source<img class="gitbuttonicon1" src="gitbutton.png"></a> </span> 
    `;
-
     page.style.display = 'block';
     background.style.display = 'block';
   } else if (n === 2) {
@@ -214,7 +213,7 @@ function dynamic(n) {
        <li><span class="htcjmodal">${projectCards[1].technologies1[5]}</span></li>
    </ul>     
    <br>
-   <span><a class="abouts" href="${projectCards[1].liveButton}" target="_blank">See Live<img class="seeliveicon1" src="seeliveicon.png"></a> </span> 
+   <span><a class="abouts" href="${projectCards[1].liveButton}" target="_blank">See Live<img class="seeliveicon1" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
    <span><a class="abouts" href="${projectCards[1].codeButton}" target="_blank">See Source<img class="gitbuttonicon1" src="gitbutton.png"></a> </span> 
    `;
 
@@ -231,7 +230,7 @@ function dynamic(n) {
                             <li><span class="htcj">${projectCards[1].technologies2[1]}</span></li>
                             <li><span class="htcj">${projectCards[1].technologies2[2]}</span></li>
                         </ul>
-                        <span><a class="abouts paddingt" href="${projectCards[1].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="seeliveicon.png"></a> </span> 
+                        <span><a class="abouts paddingt" href="${projectCards[1].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
                         <span><a class="abouts paddingt" href="${projectCards[1].codeButton}" target="_blank">See Source<img class="gitbuttonicon2" src="gitbutton.png"></a> </span>`;
     pagemob.style.display = 'block';
     backgroundmobile.style.display = 'block';
@@ -253,7 +252,7 @@ function dynamic(n) {
        <li><span class="htcjmodal">${projectCards[2].technologies1[5]}</span></li>
    </ul>     
    <br>
-   <span><a class="abouts" href="${projectCards[2].liveButton}" target="_blank">See Live<img class="seeliveicon1" src="seeliveicon.png"></a> </span> 
+   <span><a class="abouts" href="${projectCards[2].liveButton}" target="_blank">See Live<img class="seeliveicon1" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
    <span><a class="abouts" href="${projectCards[2].codeButton}" target="_blank">See Source<img class="gitbuttonicon1" src="gitbutton.png"></a> </span> 
    `;
 
@@ -270,7 +269,7 @@ function dynamic(n) {
                             <li><span class="htcj">${projectCards[2].technologies2[1]}</span></li>
                             <li><span class="htcj">${projectCards[2].technologies2[2]}</span></li>
                         </ul>
-                        <span><a class="abouts paddingt" href="${projectCards[2].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="seeliveicon.png"></a> </span> 
+                        <span><a class="abouts paddingt" href="${projectCards[2].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
                         <span><a class="abouts paddingt" href="${projectCards[2].codeButton}" target="_blank">See Source<img class="gitbuttonicon2" src="gitbutton.png"></a> </span>`;
     pagemob.style.display = 'block';
     backgroundmobile.style.display = 'block';
@@ -309,7 +308,7 @@ function dynamic(n) {
                             <li><span class="htcj">${projectCards[3].technologies2[1]}</span></li>
                             <li><span class="htcj">${projectCards[3].technologies2[2]}</span></li>
                         </ul>
-                        <span><a class="abouts paddingt" href="${projectCards[3].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="seeliveicon.png"></a> </span> 
+                        <span><a class="abouts paddingt" href="${projectCards[3].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
                         <span><a class="abouts paddingt" href="${projectCards[3].codeButton}" target="_blank">See Source<img class="gitbuttonicon2" src="gitbutton.png"></a> </span>`;
     pagemob.style.display = 'block';
     backgroundmobile.style.display = 'block';
