@@ -291,7 +291,7 @@ function dynamic(n) {
        <li><span class="htcjmodal">${projectCards[3].technologies1[5]}</span></li>
    </ul>     
    <br>
-   <span><a class="abouts" href="${projectCards[3].liveButton}" target="_blank">See Live<img class="seeliveicon1" src="seeliveicon.png"></a> </span> 
+   <span><a class="abouts" href="${projectCards[3].liveButton}" target="_blank">See Live<img class="seeliveicon1" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
    <span><a class="abouts" href="${projectCards[3].codeButton}" target="_blank">See Source<img class="gitbuttonicon1" src="gitbutton.png"></a> </span> 
    `;
 
