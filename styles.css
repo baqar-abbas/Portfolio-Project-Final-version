@@ -12,6 +12,7 @@ body {
 header {
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .imageone {
@@ -128,7 +129,7 @@ nav li a img {
 
   #demo {
     width: 79%;
-    height: 713px;
+    height: 680px;
     position: absolute;
     top: 1%;
     z-index: 20;
@@ -404,7 +405,7 @@ nav li a img {
 
   .tproject {
     width: 95%;
-    height: auto;
+    height: 95%;
     margin-bottom: 20px;
     margin-right: 20px;
     transition: transform 4s;
@@ -640,7 +641,7 @@ nav li a img {
 
 #demo-mobile {
   width: 93%;
-  height: 713px;
+  height: 680px;
   display: none;
   position: absolute;
   top: 1%;

@@ -1,13 +1,14 @@
 const projectCards = [
   {
     card: 1,
-    name: 'Tonic',
-    name2: 'Tonic',
-    image: 'image1.png',
-    image2: 'image1desktop.png',
+    name: 'WEB Summit 2023',
+    name2: 'WEB Summit 2023',
+    image: 'capstonemobile.JPG',
+    image2: 'capstonedesktop.JPG',
     description: `A daily selection of privately personalized reads; no accounts or
                             sign-ups required.`,
-    description2: ` Lorem Ipsum is simply dummy text of the printing and
+    description2: ` This is a Global Web Summit 2023 project built as a Submission for a Capstone Project.
+                            Lorem Ipsum is simply dummy text of the printing and
                             typesetting industry. Lorem Ipsum has been the industry's
                             standard dummy text ever since the 1500s, when an unknown
                             printer took a galley of type and scrambled it 1960s with
@@ -19,21 +20,17 @@ const projectCards = [
                             and typesetting industry. Lorem Ipsum han printer took a
                             galley of type and scrambled it 1960s with the releawn
                             printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the release.`,
-    description3: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-    not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+                            the release`,
+    description3: ` This is a Global Web Summit 2023 project built as a Submission for a Capstone Project.
+   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+   scrambled it to make a type specimen book. It has survived not only five centuries.`,
     technologies1: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     technologies2: ['html', 'css', 'javascript'],
-    specifics: ['CANOPY', 'Back End Dev', '2015'],
-    specifics2: ['CANOPY', 'Back End Dev', '2015'],
-    liveButton: 'https://baqar-abbas.github.io/Portfolio-Project-Final-version/',
-    codeButton: 'https://github.com/baqar-abbas/Portfolio-Project-Final-version/tree/add-popup-Modal',
+    specifics: ['CAPSTONE', 'Front End Dev', '2023'],
+    specifics2: ['CAPSTONE', 'Front End Dev', '2023'],
+    liveButton: 'https://baqar-abbas.github.io/Conference-site-Capstone-Project-Module1/',
+    codeButton: 'https://github.com/baqar-abbas/Conference-site-Capstone-Project-Module1',
   },
   {
     card: 2,
