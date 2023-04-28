@@ -687,7 +687,7 @@ nav li a img {
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 412px ) {
+@media only screen and (min-width: 350px) and (max-width: 412px ) {
   /* Styles for devices with a screen width of 450px or less */
   .positionlive {
     position: relative;
