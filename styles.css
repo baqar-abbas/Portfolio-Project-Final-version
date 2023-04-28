@@ -129,7 +129,7 @@ nav li a img {
 
   #demo {
     width: 79%;
-    height: 680px;
+    height: 90vh;
     position: absolute;
     top: 1%;
     z-index: 20;
@@ -641,7 +641,7 @@ nav li a img {
 
 #demo-mobile {
   width: 93%;
-  height: 680px;
+  height: 90%;
   display: none;
   position: absolute;
   top: 1%;
@@ -676,6 +676,30 @@ nav li a img {
 .paddingt {
   margin-top: 10px;
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  /* Styles for devices with a screen width of 450px or less */
+  .positionlive {
+    position: relative;
+    top: 3.4rem;
+    right: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 412px ) {
+  /* Styles for devices with a screen width of 450px or less */
+  .positionlive {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    }
+
+    .positionsource {
+      position: relative;
+      left: 1rem;
+      top: 2rem;
+    }
 }
 
 .seeliveicon2 {
