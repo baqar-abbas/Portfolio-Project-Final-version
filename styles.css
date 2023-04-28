@@ -641,7 +641,7 @@ nav li a img {
 
 #demo-mobile {
   width: 93%;
-  height: 90%;
+  height: 90vh;
   display: none;
   position: absolute;
   top: 1%;
