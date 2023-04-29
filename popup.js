@@ -59,7 +59,7 @@ const projectCards = [
     technologies1: ['html', 'css', 'javascript', 'API', 'Jest', 'Webpack'],
     technologies2: ['html', 'css', 'javascript'],
     specifics: ['CAPSTONE', 'Full Stack Dev', '2023'],
-    specifics2: ['CAPSTONE', 'Full Stack Dev', '20123'],
+    specifics2: ['CAPSTONE', 'Full Stack Dev', '2023'],
     liveButton: 'https://baqar-abbas.github.io/JavascriptCapstone/dist/',
     codeButton: 'https://github.com/baqar-abbas/JavascriptCapstone',
   },
