@@ -7,24 +7,25 @@ const projectCards = [
     image2: 'capstonedesktop.JPG',
     description: `A daily selection of privately personalized reads; no accounts or
                             sign-ups required.`,
-    description2: ` This is a Global Web Summit 2023 project built as a Submission for a Capstone Project.
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the releorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum han printer took a
-                            galley of type and scrambled it 1960s with the releawn
-                            printer took a galley of type and scrambled it 1960s with
-                            the release`,
-    description3: ` This is a Global Web Summit 2023 project built as a Submission for a Capstone Project.
-   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-   industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
-   scrambled it to make a type specimen book. It has survived not only five centuries.`,
+    description2: ` This is a Global Web Summit 2023 project built as an individual Capstone Project. This project
+    is built on a responsive design layout approach which handles Mobile and desktop resolution. This project is built 
+    using HTML5, CSS3 and Javasvript.<br>
+    Project Decription: What is Web Summit?<br>
+    Politico has said we run “the world’s premier tech conference”, the Atlantic that Web Summit is “where the future
+    goes to be born”, and the New York Times that we assemble “a grand conclave of the tech industry’s high priests”. 
+    <br>This is a web project built on Web Global Annual
+    Summit 2023 which displays the details regarding Web summit 2023. The 
+    Project also displays featured speakers section using a drop down menu 
+    which shows the list of more details on featured speakers. This Webapp
+    also displays about section in the about page which displays details regarding
+    Web summit 2023 and details on past events held on Global Web Summit.`,
+    description3: ` This is a Global Web Summit 2023 project built as an individual Capstone Project.
+    This project is built on a responsive design layout approach which handles Mobile and desktop resolution. This project 
+    is built using HTML5, CSS3 and Javasvript.n It shows details regarding Web summit 2023. The 
+    Project also displays featured speakers section using a drop down menu 
+    which shows the list of more details on featured speakers. This Webapp
+    also displays about section in the about page which displays details regarding
+    Web summit 2023 and details on past events held on Global Web Summit.`,
     technologies1: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
     technologies2: ['html', 'css', 'javascript'],
     specifics: ['CAPSTONE', 'Front End Dev', '2023'],
