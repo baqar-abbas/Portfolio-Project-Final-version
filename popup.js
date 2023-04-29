@@ -37,8 +37,8 @@ const projectCards = [
     card: 2,
     name: 'Astronomy Picture of the Day',
     name2: 'Astronomy Picture of the Day',
-    image: 'jscapstone.jpg',
-    image2: 'jscapstone.jpg',
+    image: 'jscapstone.JPG',
+    image2: 'jscapstone.JPG',
     description: `Experimental content creation feature that allows users to add to
                             an existing story over the course of a day without spamming their
                             friends.`,
