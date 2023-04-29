@@ -37,8 +37,8 @@ const projectCards = [
     card: 2,
     name: 'Astronomy Picture of the Day',
     name2: 'Astronomy Picture of the Day',
-    image: 'jscapstone.JPG',
-    image2: 'jscapstone.JPG',
+    image: 'https://res.cloudinary.com/dapnjt4ah/image/upload/v1682777694/jscapstone_bwjsjd.jpg',
+    image2: 'https://res.cloudinary.com/dapnjt4ah/image/upload/v1682777694/jscapstone_bwjsjd.jpg',
     description: `Experimental content creation feature that allows users to add to
                             an existing story over the course of a day without spamming their
                             friends.`,
