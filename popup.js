@@ -65,40 +65,29 @@ const projectCards = [
   },
   {
     card: 3,
-    name: 'Tonic',
-    name2: 'Facebook 360',
-    image: 'image3.png',
-    image2: 'facebookproject.png',
+    name: 'Bookstore',
+    name2: 'Bookstore',
+    image: 'bookstore.JPG',
+    image2: 'bookstore.JPG',
     description: ` Exploring the future of media in Facebook's first Virtual Reality
                             app; a place to discover and enjoy 360 photos and videos on Gear
                             VR.`,
-    description2: ` Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the releorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum han printer took a
-                            galley of type and scrambled it 1960s with the releawn
-                            printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the release.`,
-    description3: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-    not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    technologies1: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
-    technologies2: ['html', 'css', 'javascript'],
-    specifics: ['CANOPY', 'Back End Dev', '2015'],
-    specifics2: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    liveButton: 'https://baqar-abbas.github.io/Portfolio-Project-Final-version/',
-    codeButton: 'https://github.com/baqar-abbas/Portfolio-Project-Final-version/tree/add-popup-Modal',
+    description2: ` Bookstore is a Desktop webapp created using React and Redux (for State Management) 
+    which uses API as the backend. This webapp allows users to add and retrieve books from the API and
+    also allows users to delete and add new books to the API. This webapp is a desktop app try accesing 
+    through desktop or laptop machine as this app is not configured to handle mobile responsiveness. In future
+    this app will be configured to handle mobile responsiveness. Bookstore webapp has been deployed on Netlify 
+    you can access the webapp using the link provided in the SEE Live button.`,
+    description3: ` Bookstore is a Desktop webapp created using React and Redux (for State Management) 
+    which uses API as backend. This webapp allows users to add and retrieve books from the API and
+    also allows users to delete and add new books to the API. This webapp is a desktop app try accesing 
+    through desktop or laptop machine as this app is not configured to handle mobile responsiveness.`,
+    technologies1: ['React', 'css', 'javascript', 'Redux', 'API', 'ASYNC Thunk'],
+    technologies2: ['React', 'Redux', 'javascript'],
+    specifics: ['soloProject', 'Full Stack Dev', '2023'],
+    specifics2: ['soloProject', 'Full Stack Dev', '2023'],
+    liveButton: 'https://bookstoreactbaqar.netlify.app/',
+    codeButton: 'https://github.com/baqar-abbas/bookstore',
   },
   {
     card: 4,

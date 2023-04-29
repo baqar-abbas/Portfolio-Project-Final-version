@@ -388,7 +388,7 @@ nav li a img {
 
   .fproject {
     width: 95%;
-    height: auto;
+    height: 95%;
     margin-bottom: 20px;
     margin-right: 20px;
     transition: transform 4s;
@@ -932,6 +932,7 @@ nav li a img {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
+  height: 470px;
   background-color: white;
 }
 
@@ -955,6 +956,7 @@ nav li a img {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
+  height: 470px;
   background-color: white;
 }
 
@@ -978,6 +980,7 @@ nav li a img {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
+  height: 470px;
   background-color: white;
 }
 
