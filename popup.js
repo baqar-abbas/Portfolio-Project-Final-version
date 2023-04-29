@@ -35,40 +35,33 @@ const projectCards = [
   },
   {
     card: 2,
-    name: 'Multi-Post Stories',
-    name2: 'Multi-Post Stories',
-    image: 'image2.png"',
-    image2: 'multiproject.png',
+    name: 'Astronomy Picture of the Day',
+    name2: 'Astronomy Picture of the Day',
+    image: 'jscapstone.jpg',
+    image2: 'jscapstone.jpg',
     description: `Experimental content creation feature that allows users to add to
                             an existing story over the course of a day without spamming their
                             friends.`,
-    description2: ` Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the releorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum han printer took a
-                            galley of type and scrambled it 1960s with the releawn
-                            printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the release.`,
-    description3: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-    not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    technologies1: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+    description2: ` Astronomy Picture of the Day uses APIs as backend to fetch images from base API 
+    (NASA API) and adds interactivity through involvement API to add likes, opening Popop Modal and 
+    add comments. User can add likes to the pcitures and user can open comment modal section and enter 
+    their comments in the comments section. This Project is a desktop webapp and it was built as a 
+    group Project using HTML, CSS, Javascript, Webpack, and API. In order to have a best user experience
+    you need to be accessing this webapp through Desktop or Laptop as this app is not configured to handle
+    responsiveness for mobile resolution.`,
+    description3: ` Astronomy Picture of the Day uses APIs as backend to fetch images from base API 
+    (NASA API) and adds interactivity through involvement API to add likes, opening Popop Modal and 
+    add comments. User can add likes to the pcitures and user can open comment modal section and enter 
+    their comments in the comments section. This Project is a desktop webapp and it was built as a 
+    group Project using HTML, CSS, Javascript, Webpack, and API. In order to have a best user experience
+    you need to be accessing this webapp through Desktop or Laptop as this app is not configured to handle
+    responsiveness for mobile resolution.`,
+    technologies1: ['html', 'css', 'javascript', 'API', 'Jest', 'Webpack'],
     technologies2: ['html', 'css', 'javascript'],
-    specifics: ['CANOPY', 'Back End Dev', '2015'],
-    specifics2: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    liveButton: 'https://baqar-abbas.github.io/Portfolio-Project-Final-version/',
-    codeButton: 'https://github.com/baqar-abbas/Portfolio-Project-Final-version/tree/add-popup-Modal',
+    specifics: ['CAPSTONE', 'Full Stack Dev', '2023'],
+    specifics2: ['CAPSTONE', 'Full Stack Dev', '20123'],
+    liveButton: 'https://baqar-abbas.github.io/JavascriptCapstone/dist/',
+    codeButton: 'https://github.com/baqar-abbas/JavascriptCapstone',
   },
   {
     card: 3,
