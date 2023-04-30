@@ -378,13 +378,13 @@ nav li a img {
   }
 
   .uproject {
-    width: 90%;
+    width: 85%;
     height: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     position: relative;
-    left: 1rem;
+    left: 3rem;
     transition: transform 4s;
   }
 
