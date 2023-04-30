@@ -91,39 +91,34 @@ const projectCards = [
   },
   {
     card: 4,
-    name: 'Multi-Post Stories',
-    name2: 'Uber Navigation',
-    image: 'image4.png',
-    image2: 'uberproject.png',
+    name: 'Metrics Webapp',
+    name2: "Space Traveler's Hub",
+    image: 'metrics.JPG',
+    image2: 'spacehub.JPG',
     description: `  A smart assistant to make driving more safe, efficient, and fun by
                             unlocking your most expensive computer: your car.`,
-    description2: ` Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the releorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum han printer took a
-                            galley of type and scrambled it 1960s with the releawn
-                            printer took a galley of type and scrambled it 1960s with
-                            the releaLorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it 1960s
-                            with the release.`,
-    description3: ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it to make a type specimen book. It has survived 
-    not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    technologies1: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
-    technologies2: ['html', 'css', 'javascript'],
-    specifics: ['CANOPY', 'Back End Dev', '2015'],
-    specifics2: ['UBER', 'Lead Developer', '2018'],
-    liveButton: 'https://baqar-abbas.github.io/Portfolio-Project-Final-version/',
-    codeButton: 'https://github.com/baqar-abbas/Portfolio-Project-Final-version/tree/add-popup-Modal',
+    description2: ` Space Traveler's Hub is a Desktop webapp created using React and Redux 
+    which uses API as the backend. This webapp allows users to reserve rockets and 
+    join missions. Users can see the reserved rockets and missions joined details in the profile page.
+    This is desktop webapp and it was built as group capstone project using React, Redux, JSX, API and 
+    ASYNC THUNK. This project has been deployed on Netlify and its live preview can be seen by clicking 
+    the SEE live button. In order to have best user experience try accessing the webapp using your desktop
+    or laptop as this webapp is not configured to handle mobile responsiveness. In future mobile version of 
+    this app will be available as well.`,
+    description3: ` Population metrics webapp is a Mobile webapp which is fetching images and data
+    through Rest Countries API and displaying them on the app pages. User can click on the available
+     country/ population metrics and can see the details on the details page. In order to have best user 
+     experience try accessing this app through you mobile device as this app is best configured for mobile
+     resolution. This project has been deployed on Netlify and its live preview can be seen by clicking 
+     the SEE live button.`,
+    technologies1: ['React', 'css', 'javascript', 'Redux', 'API', 'ASYNC Thunk'],
+    technologies2: ['React', 'Redux', 'javascript'],
+    specifics: ['CAPSTONE', 'Full Stack Dev', '2023'],
+    specifics2: ['CAPSTONE', 'Full Stack Dev', '2023'],
+    liveButton: 'https://spacetravellerhubcapstone.netlify.app/',
+    codeButton: 'https://github.com/baqar-abbas/spacehub-capstone',
+    liveButton2: 'https://population-metrics-webapp.netlify.app/',
+    codeButton2: 'https://github.com/baqar-abbas/population-metrics-webapp',
   },
 ];
 
@@ -289,8 +284,8 @@ function dynamic(n) {
                             <li><span class="htcj">${projectCards[3].technologies2[1]}</span></li>
                             <li><span class="htcj">${projectCards[3].technologies2[2]}</span></li>
                         </ul>
-                        <span><a class="abouts paddingt positionlive" href="${projectCards[3].liveButton}" target="_blank">See Live<img class="seeliveicon2" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
-                        <span><a class="abouts paddingt positionsource" href="${projectCards[3].codeButton}" target="_blank">See Source<img class="gitbuttonicon2" src="gitbutton.png"></a> </span>`;
+                        <span><a class="abouts paddingt positionlive" href="${projectCards[3].liveButton2}" target="_blank">See Live<img class="seeliveicon2" src="https://res.cloudinary.com/dapnjt4ah/image/upload/v1678270657/seeliveIcon_ymjy37.png"></a> </span> 
+                        <span><a class="abouts paddingt positionsource" href="${projectCards[3].codeButton2}" target="_blank">See Source<img class="gitbuttonicon2" src="gitbutton.png"></a> </span>`;
     pagemob.style.display = 'block';
     backgroundmobile.style.display = 'block';
   }
